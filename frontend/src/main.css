@@ -1,0 +1,12 @@
+card h4,
+p {
+  text-align: justify;
+}
+.nav-link a {
+  color: white;
+  padding: 0 10px;
+}
+
+.blogContent {
+  text-overflow: ellipsis;
+}
