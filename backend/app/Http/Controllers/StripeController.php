@@ -33,7 +33,7 @@ class StripeController extends Controller
             ],
             'mode' => 'payment',
             'success_url' => $url,
-            'cancel_url' => route(name: 'index')
+            'cancel_url' => 'http://127.0.0.1:8000/api/dashboard'
         ]);
 
         return redirect()->away($session->url);

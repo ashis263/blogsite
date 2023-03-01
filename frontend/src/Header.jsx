@@ -9,7 +9,7 @@ export default function Header() {
   const logout = () => {
     console.log('logout run');
     localStorage.clear();
-    navigate("/login");
+    navigate("/register");
   };
 
   const [userId, setuserId] = useState([]);
